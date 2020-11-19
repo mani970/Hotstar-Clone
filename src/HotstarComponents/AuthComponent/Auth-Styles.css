@@ -1,0 +1,49 @@
+.authBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background: linear-gradient(to bottom, rgb(25 33 51), rgb(17 24 38));
+  box-shadow: 1px 3px 4px 1px #272935;
+  color: rgb(255 255 255);
+}
+
+.authBlock h5 {
+  padding-bottom: 0 !important;
+}
+
+.authBlock .btn-outline-primary {
+  color: rgb(31 128 224);
+  border-color: rgb(31 128 224);
+}
+
+.authBlock input,
+.authBlock textarea,
+.authBlock select {
+  background: rgb(0 0 0 / 0%) !important;
+  border: 1px solid rgb(73 80 87) !important;
+  color: #fff;
+}
+
+.authBlock .btn-outline-primary:hover {
+  color: #fff;
+  background: rgb(31 128 224);
+}
+
+.authBlock .form-group span a {
+  padding: 3px 11px;
+  font-weight: bold;
+  border: 1px solid rgb(31 128 224);
+  border-radius: 2px;
+}
+
+.password-reset a {
+  border: none !important;
+  color: rgb(255 255 255);
+  text-align: right;
+  display: block;
+  margin: -10px -9px 10px;
+}

@@ -1,0 +1,117 @@
+.navbar {
+  background: linear-gradient(to bottom, rgb(20 27 41), rgb(12 17 27) 300px);
+  color: rgb(255 255 255);
+  /* position: fixed;
+  width: 100%;
+  top: 0; */
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  height: 70px;
+}
+
+.bar-icon {
+  padding: 0 2px 0 20px;
+}
+.bar-icon i {
+  font-size: 20px;
+}
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-item a {
+  font-size: 16px;
+  padding: 3px 14px !important;
+}
+.navbar-brand img {
+  position: relative;
+  top: -5px;
+  right: -13px;
+}
+
+.disney-block {
+  position: relative;
+  top: 7px;
+}
+.disney-block div:nth-child(2) {
+  position: relative;
+  top: -4px;
+  color: rgb(65 105 225);
+  font-size: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.kids-block {
+  background: url("/kids.svg");
+  width: 40px;
+  height: 15px;
+  text-indent: -9999px;
+  margin: 0 20px;
+}
+
+.navbar-nav .nav-item input {
+  background: rgb(0 0 0 / 0%);
+  border: none;
+  border-bottom: 1px solid rgb(204 204 204);
+  border-radius: 0;
+  width: 250px;
+  padding: 0;
+}
+.navbar-nav .form-control::placeholder {
+  color: #fff !important;
+  text-transform: capitalize;
+  padding: 0 !important;
+}
+
+.subscribe-block {
+  background: rgb(31 128 224);
+  margin: 19px 0 13px 15px;
+  padding: 3px 16px !important;
+  display: inline-block;
+  border-radius: 3px;
+  color: rgb(255 255 255) !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .form-control:focus {
+  background: transparent !important;
+  width: 350px;
+  border-bottom: 1px solid royalblue;
+  box-shadow: none;
+  transition: ease-in-out 0.5s all;
+}
+
+.navbar-nav.ml-auto img {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+}
+
+.dropdownMenu {
+  display: none;
+  list-style: none;
+  background: rgb(20 27 41);
+  position: absolute;
+  top: 57px;
+  width: 166px;
+  left: -106px;
+  padding: 10px;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.dropdownMenu a {
+  color: #fff;
+}
+
+.profile_block {
+  position: relative;
+}
+
+.profile_block:hover .dropdownMenu {
+  display: block;
+}

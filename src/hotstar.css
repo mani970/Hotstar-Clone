@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(20 27 41), rgb(12 17 27) 300px);
+  font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.moviesBlock {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1.5%;
+}
+.thumbnail_video_block {
+  height: 160px;
+  overflow: hidden;
+}
+
+.moviesBlock .thumbnail_video {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.moviesBlock .col-md-3 {
+  border-radius: 4px;
+  position: relative;
+}
+
+.moviesBlock img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.videoContentBlock {
+  position: absolute;
+  width: 298px;
+  top: 25px;
+  font-size: 12px;
+  padding: 0px 0px;
+  background: rgb(20 27 41);
+  opacity: 0.9;
+  margin: 10px 0px;
+  border-radius: 0px;
+  z-index: 4;
+  transform: translateY(132px);
+  cursor: pointer;
+  transition: ease-out all 0.9s;
+}
+
+.videoContentBlock h5 {
+  font-size: 12px;
+  padding: 6px 6px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  border-bottom: 1px solid #212529;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.movieContentBlock {
+  display: flex;
+  padding: 0 10px;
+  font-size: 11px;
+}
+
+.movieDescriptionBlock {
+  padding: 0 10px;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.watchMovieBlock {
+  background: rgb(20 27 41);
+  padding: 10px 10px;
+  font-size: 11px;
+  margin: -15px 0;
+  width: 100%;
+}
+
+.watchMovieBlock a {
+  color: #fff;
+  text-decoration: none;
+}
+.watchMovieBlock span {
+  margin: 0px 9px 5px 0px;
+}
+
+.col-md-2 {
+  flex: 0 0 19.666667%;
+  max-width: 19.666667%;
+  padding: 5px;
+}
+
+.watchMovieBlock:hover {
+  background: #343a40;
+  cursor: pointer;
+  border-radius: 0px 0px 5px 5px;
+  border-bottom: 2px solid #adb5bd;
+}
+
+.videoBlock:hover .videoContentBlock {
+  transform: translateY(0px);
+  cursor: pointer;
+  transition: ease-out all 0.9s;
+  position: absolute;
+  z-index: 1;
+  display: block;
+}
+
+.movieBlockId video {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.movieBlockId main {
+  width: 46%;
+  background: #030b17;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 21px 30px;
+}
+
+.movieBlockId aside {
+  width: 54%;
+}
+
+.movieBlockId article {
+  padding: 0px;
+  margin: 0 10px;
+}
+
+.movieBlockId main h2 {
+  font-size: 23px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 270px;
+  padding: 30px 0 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.descriptionBlock ul {
+  display: flex;
+}
+.descriptionBlock ul li {
+  margin: 0 14px 0 10px;
+  text-transform: capitalize;
+}
+
+.movieBlockId footer {
+  display: flex;
+  height: 120px;
+  align-items: flex-end;
+}
+.movieBlockId footer .watchBlock button {
+  background: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.movieBlockId footer .watchBlock i {
+  font-size: 22px;
+}
+.mainPlayerBlock {
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.movieBlockId .image-gradient {
+  right: 594px;
+}
+.movieBlockId .image-gradient {
+  top: 0;
+  right: 590px;
+  width: 200px;
+  height: inherit;
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, #030b17, rgba(0, 0, 0, 0));
+}
+
+.movieBlockId .containerBlock::after,
+.movieBlockId .containerBlock::before {
+  content: " ";
+  display: table;
+}
+
+.phone_auth_block {
+  width: 100%;
+  display: block;
+  padding: 9px 11px !important;
+  text-align: center;
+  border-radius: 5px;
+  border: none !important;
+  border-bottom: 2px solid blue !important;
+}
